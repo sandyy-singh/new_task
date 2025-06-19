@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,10 +44,16 @@ html {
   margin-bottom: 20px;
   line-height: 1.4;
 }
-.toggle-icon{
+
+.toggle-icon {
   top: 40px;
   left: 20px;
-  color: #000;
+  background-color: #e8e5e2;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+
+
 }
 
 .icons {
@@ -139,8 +144,8 @@ html {
 
 .toggle-ic {
   position: absolute;
- 
-  color: #c14e1a;
+
+  color: #f8fbf9;
   top: 40px;
   left: 2px;
   font-size: 24px;
