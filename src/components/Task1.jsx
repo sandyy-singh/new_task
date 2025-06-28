@@ -77,7 +77,7 @@ function Task1() {
 
         <div className="buttons">
           <button className="add">ADD TO COLLECTION</button>
-          <Link to="/Task2" className="souvenir">SOUVENIR</Link>
+          <Link to="/Task2" className="souvenir">Task 2 </Link>
       
         </div>
       </div>
