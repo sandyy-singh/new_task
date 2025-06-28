@@ -5,17 +5,12 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-
-
-
 .container {
   display: flex;
   height: 100vh;
   width: 100vw;
   flex-direction: row;
 }
-
-
 .left-panel {
   width: 20%;
   padding: 40px 30px;
@@ -110,6 +105,7 @@
   background-color: #f9f4f0;
   color: #c14e1a;
   border: 1px solid #c14e1a;
+  text-decoration: none;
 }
 
 .toggale-icon {
@@ -154,8 +150,6 @@
   filter: drop-shadow(10px 8px 10px rgba(0, 0, 0, 0.3));
 }
 
-
-/* Small devices (phones) */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;

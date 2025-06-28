@@ -6,6 +6,8 @@ import "../App.css";
 import { CiHeart } from "react-icons/ci";
 import { CiShare2 } from "react-icons/ci";
 import axios from "axios";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -75,7 +77,8 @@ function Task1() {
 
         <div className="buttons">
           <button className="add">ADD TO COLLECTION</button>
-          <button className="souvenir">SOUVENIR</button>
+          <Link to="/Task2" className="souvenir">SOUVENIR</Link>
+      
         </div>
       </div>
 
